@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wevva/static/css/main.266173d9.chunk.css",
+    "main.js": "/wevva/static/js/main.25386d81.chunk.js",
+    "main.js.map": "/wevva/static/js/main.25386d81.chunk.js.map",
+    "runtime-main.js": "/wevva/static/js/runtime-main.0a3df01e.js",
+    "runtime-main.js.map": "/wevva/static/js/runtime-main.0a3df01e.js.map",
+    "static/js/2.249e24eb.chunk.js": "/wevva/static/js/2.249e24eb.chunk.js",
+    "static/js/2.249e24eb.chunk.js.map": "/wevva/static/js/2.249e24eb.chunk.js.map",
+    "index.html": "/wevva/index.html",
+    "precache-manifest.11589c81bee0f6121fe96a3e309701f4.js": "/wevva/precache-manifest.11589c81bee0f6121fe96a3e309701f4.js",
+    "service-worker.js": "/wevva/service-worker.js",
+    "static/css/main.266173d9.chunk.css.map": "/wevva/static/css/main.266173d9.chunk.css.map",
+    "static/js/2.249e24eb.chunk.js.LICENSE.txt": "/wevva/static/js/2.249e24eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a3df01e.js",
+    "static/js/2.249e24eb.chunk.js",
+    "static/css/main.266173d9.chunk.css",
+    "static/js/main.25386d81.chunk.js"
+  ]
+}
