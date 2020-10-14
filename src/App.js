@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Sheffield,uk&appid=0fbd6c6079d3fdfcb32d21d2c735760c';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Sheffield,uk&appid=a0a4ed2421e783072dfb96623b63f774';
 // import axios from'axios'
 
 
 // api id and gh page
-// 0fbd6c6079d3fdfcb32d21d2c735760c
+// a0a4ed2421e783072dfb96623b63f774
 // https://deltadesign.github.io/wevva/
 
 class App extends React.Component {
