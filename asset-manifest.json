@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wevva/static/css/main.e1a44fb4.chunk.css",
-    "main.js": "/wevva/static/js/main.3dc39855.chunk.js",
-    "main.js.map": "/wevva/static/js/main.3dc39855.chunk.js.map",
+    "main.js": "/wevva/static/js/main.1e612483.chunk.js",
+    "main.js.map": "/wevva/static/js/main.1e612483.chunk.js.map",
     "runtime-main.js": "/wevva/static/js/runtime-main.0a3df01e.js",
     "runtime-main.js.map": "/wevva/static/js/runtime-main.0a3df01e.js.map",
     "static/js/2.249e24eb.chunk.js": "/wevva/static/js/2.249e24eb.chunk.js",
     "static/js/2.249e24eb.chunk.js.map": "/wevva/static/js/2.249e24eb.chunk.js.map",
     "index.html": "/wevva/index.html",
-    "precache-manifest.e28b28e97d8b1a1f10b80fe605656417.js": "/wevva/precache-manifest.e28b28e97d8b1a1f10b80fe605656417.js",
+    "precache-manifest.7e46678e1d9a552a235f7a64714c8e93.js": "/wevva/precache-manifest.7e46678e1d9a552a235f7a64714c8e93.js",
     "service-worker.js": "/wevva/service-worker.js",
     "static/css/main.e1a44fb4.chunk.css.map": "/wevva/static/css/main.e1a44fb4.chunk.css.map",
     "static/js/2.249e24eb.chunk.js.LICENSE.txt": "/wevva/static/js/2.249e24eb.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0a3df01e.js",
     "static/js/2.249e24eb.chunk.js",
     "static/css/main.e1a44fb4.chunk.css",
-    "static/js/main.3dc39855.chunk.js"
+    "static/js/main.1e612483.chunk.js"
   ]
 }
