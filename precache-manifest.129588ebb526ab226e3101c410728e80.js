@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e225d90aff650adcdcf0dc371b71c34f",
+    "revision": "4f2aea8d1eb77ba25b1be4a8b410c133",
     "url": "/wevva/index.html"
   },
   {
-    "revision": "8d6513f8cafbc75089b5",
+    "revision": "a461fcf853ddddbad2eb",
     "url": "/wevva/static/css/main.e1a44fb4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wevva/static/js/2.7584bcfe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d6513f8cafbc75089b5",
-    "url": "/wevva/static/js/main.9a4379e4.chunk.js"
+    "revision": "a461fcf853ddddbad2eb",
+    "url": "/wevva/static/js/main.479acff4.chunk.js"
   },
   {
     "revision": "2548c17f3310b866e28a",
