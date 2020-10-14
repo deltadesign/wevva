@@ -16,7 +16,9 @@ class App extends React.Component {
   
   componentDidMount(){
 
-    console.log(this.ApiClient.getForecast())
+    this.ApiClient.getForecast().then((response) => {
+      console.log(response)
+    })
 
   }
 
