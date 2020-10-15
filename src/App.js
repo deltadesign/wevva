@@ -14,6 +14,14 @@ class App extends React.Component {
     this.ApiClient = new ApiClient();
   }
 
+  weather(){
+    return this.state.weather.map((item, i)=> (
+      <div>
+      <h2 key= {i} >{item.dt}</h2> 
+      </div>
+    ))
+  }
+
   getweather () {
     this.ApiClient.getForecast().then((response) => {
       // console.log(response.data.daily)
@@ -35,6 +43,8 @@ class App extends React.Component {
       <pre>{JSON.stringify(this.state)}</pre>
 
       {this.state.loading ? "Loading..." : "Here's your 5 day forecast"}
+
+      {this.weather()}
 
     </ div>
   );
