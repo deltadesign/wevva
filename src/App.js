@@ -8,18 +8,14 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-
     }
     this.ApiClient = new ApiClient();
   }
-
   
   componentDidMount(){
-
     this.ApiClient.getForecast().then((response) => {
       console.log(response)
     })
-
   }
 
   render () {

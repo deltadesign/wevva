@@ -11,11 +11,7 @@ export class ApiClient {
   }
 
   getForecast() {
-    return this.getRequest('https://api.openweathermap.org/data/2.5/forecast/daily?q=London&cnt=5&units=metric&appid=a0a4ed2421e783072dfb96623b63f774'); //Mine
-
-    // return this.getRequest("https://api.openweathermap.org/data/2.5/onecall?lat=53.382969&lon=-1.4659&exclude=hourly,minutely&units=metric&appid=06af2c84a95e6a736fd7bab4b3be279d") //Neils from the example app
-
-    // return this.getRequest('https://api.quotable.io/random'); //quotable for testing
+    return this.getRequest("https://api.openweathermap.org/data/2.5/onecall?lat=53.402460&lon=-1.503170&exclude=hourly,minutely&units=metric&appid=0c0115c73dc56a1a10b2e6f717f9c859");
   }
 
   getRequest(url) {
