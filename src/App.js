@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Wcard from './components/weathercard'
 import { ApiClient } from './ApiClient'
 
 // https://deltadesign.github.io/wevva/
@@ -16,9 +18,14 @@ class App extends React.Component {
 
   weather(){
     return this.state.weather.map((item, i)=> (
-      <div>
-      <h2 key= {i} >{item.dt}</h2> 
-      </div>
+      <Wcard key= {i}
+        datestring ={item.dt}
+        icon = {item.weather[0].icon}
+        text = {item.weather[0].description}
+        min = {item.temp.min}
+        max = {item.temp.max} 
+        wind = {item.wind_speed}
+      />
     ))
   }
 
@@ -39,8 +46,6 @@ class App extends React.Component {
   render () {
   return (
     <div className = "app">
-
-      <pre>{JSON.stringify(this.state)}</pre>
 
       {this.state.loading ? "Loading..." : "Here's your 5 day forecast"}
 
