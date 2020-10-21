@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/wevva/static/css/main.e1a44fb4.chunk.css",
-    "main.js": "/wevva/static/js/main.1b101888.chunk.js",
-    "main.js.map": "/wevva/static/js/main.1b101888.chunk.js.map",
+    "main.js": "/wevva/static/js/main.0c0bde58.chunk.js",
+    "main.js.map": "/wevva/static/js/main.0c0bde58.chunk.js.map",
     "runtime-main.js": "/wevva/static/js/runtime-main.0a3df01e.js",
     "runtime-main.js.map": "/wevva/static/js/runtime-main.0a3df01e.js.map",
-    "static/js/2.7584bcfe.chunk.js": "/wevva/static/js/2.7584bcfe.chunk.js",
-    "static/js/2.7584bcfe.chunk.js.map": "/wevva/static/js/2.7584bcfe.chunk.js.map",
+    "static/css/2.2a86faee.chunk.css": "/wevva/static/css/2.2a86faee.chunk.css",
+    "static/js/2.d0afeeeb.chunk.js": "/wevva/static/js/2.d0afeeeb.chunk.js",
+    "static/js/2.d0afeeeb.chunk.js.map": "/wevva/static/js/2.d0afeeeb.chunk.js.map",
     "index.html": "/wevva/index.html",
-    "precache-manifest.0cf55885ac98e570239e3fe443317992.js": "/wevva/precache-manifest.0cf55885ac98e570239e3fe443317992.js",
+    "precache-manifest.dc2a8c5f0a9024a25e155e084a769d2c.js": "/wevva/precache-manifest.dc2a8c5f0a9024a25e155e084a769d2c.js",
     "service-worker.js": "/wevva/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/wevva/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.e1a44fb4.chunk.css.map": "/wevva/static/css/main.e1a44fb4.chunk.css.map",
-    "static/js/2.7584bcfe.chunk.js.LICENSE.txt": "/wevva/static/js/2.7584bcfe.chunk.js.LICENSE.txt"
+    "static/js/2.d0afeeeb.chunk.js.LICENSE.txt": "/wevva/static/js/2.d0afeeeb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a3df01e.js",
-    "static/js/2.7584bcfe.chunk.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.d0afeeeb.chunk.js",
     "static/css/main.e1a44fb4.chunk.css",
-    "static/js/main.1b101888.chunk.js"
+    "static/js/main.0c0bde58.chunk.js"
   ]
 }
