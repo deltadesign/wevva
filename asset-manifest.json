@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wevva/static/css/main.1d6449aa.chunk.css",
-    "main.js": "/wevva/static/js/main.91e64018.chunk.js",
-    "main.js.map": "/wevva/static/js/main.91e64018.chunk.js.map",
+    "main.js": "/wevva/static/js/main.100c9c42.chunk.js",
+    "main.js.map": "/wevva/static/js/main.100c9c42.chunk.js.map",
     "runtime-main.js": "/wevva/static/js/runtime-main.0a3df01e.js",
     "runtime-main.js.map": "/wevva/static/js/runtime-main.0a3df01e.js.map",
     "static/css/2.2a86faee.chunk.css": "/wevva/static/css/2.2a86faee.chunk.css",
     "static/js/2.8f193fcf.chunk.js": "/wevva/static/js/2.8f193fcf.chunk.js",
     "static/js/2.8f193fcf.chunk.js.map": "/wevva/static/js/2.8f193fcf.chunk.js.map",
     "index.html": "/wevva/index.html",
-    "precache-manifest.794c9600abe33f7909f015e52d191756.js": "/wevva/precache-manifest.794c9600abe33f7909f015e52d191756.js",
+    "precache-manifest.a41040e695b2d17d105d25c47a15748e.js": "/wevva/precache-manifest.a41040e695b2d17d105d25c47a15748e.js",
     "service-worker.js": "/wevva/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/wevva/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.1d6449aa.chunk.css.map": "/wevva/static/css/main.1d6449aa.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.8f193fcf.chunk.js",
     "static/css/main.1d6449aa.chunk.css",
-    "static/js/main.91e64018.chunk.js"
+    "static/js/main.100c9c42.chunk.js"
   ]
 }
