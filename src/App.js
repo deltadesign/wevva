@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/navbar';
 import Wcard from './components/weathercard';
 import { ApiClient } from './ApiClient';
+import { Random } from './components/randoload';
 import './App.css';
 
 // https://deltadesign.github.io/wevva/
@@ -15,6 +16,7 @@ class App extends React.Component {
       weather : []
     }
     this.ApiClient = new ApiClient();
+    this.Random = new Random();
   }
 
   weather(){
@@ -47,7 +49,7 @@ class App extends React.Component {
   return (
     <>
       <Navbar bg = "dark" variant = "dark">
-        <Navbar.Brand>{this.state.loading ? "..." : "Wevva"}</Navbar.Brand>
+        <Navbar.Brand>{this.state.loading ? this.Random.getRandomMessage() : "Wevva"}</Navbar.Brand>
       </Navbar>
     <div className = "app">
       {this.weather()}
