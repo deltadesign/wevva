@@ -18,10 +18,10 @@ switch(randomNumber){
     return "Weather mining is hard work";
 
   case 5: 
-    return "We forecast that the weather will be with you soon"
+    return "Weathering the storm of API requests"
   
   default:
-    return "..."
+    return "...Loading.."
 }
 }
 }
