@@ -1,8 +1,9 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from 'react-bootstrap/navbar';
+import Wcard from './components/weathercard';
+import { ApiClient } from './ApiClient';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Wcard from './components/weathercard'
-import { ApiClient } from './ApiClient'
 
 // https://deltadesign.github.io/wevva/
 
@@ -17,7 +18,7 @@ class App extends React.Component {
   }
 
   weather(){
-    return this.state.weather.map((item, i)=> (
+    return this.state.weather.slice(1,6).map((item, i)=> (  
       <Wcard key= {i}
         datestring ={item.dt}
         icon = {item.weather[0].icon}
@@ -31,7 +32,6 @@ class App extends React.Component {
 
   getweather () {
     this.ApiClient.getForecast().then((response) => {
-      // console.log(response.data.daily)
       this.setState({
         loading: false,
         weather: response.data.daily
@@ -45,13 +45,14 @@ class App extends React.Component {
 
   render () {
   return (
+    <>
+      <Navbar bg = "dark" variant = "dark">
+        <Navbar.Brand>{this.state.loading ? "..." : "Wevva"}</Navbar.Brand>
+      </Navbar>
     <div className = "app">
-
-      {this.state.loading ? "Loading..." : "Here's your 5 day forecast"}
-
       {this.weather()}
-
-    </ div>
+    </div>
+    </>
   );
   }
 }
