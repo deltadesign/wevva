@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   weather(){
-    return this.state.weather.slice(1,6).map((item, i)=> (  
+    return this.state.weather.slice(1,8).map((item, i)=> (  
       <Wcard key= {i}
         datestring ={item.dt}
         icon = {item.weather[0].icon}
@@ -55,7 +55,7 @@ class App extends React.Component {
         <Navbar.Brand>{this.state.loading ? this.Random.getRandomMessage() : "Wevva"}</Navbar.Brand>
       </Navbar>
     <div className = "app">
-      {this.state.loading ? <img src={loading} alt="a loading wheel"/> : this.weather()}
+      {this.state.loading ? <img src={loading} alt="a loading wheel" id="loadingwheel"/> : this.weather()}
     </div>
     </>
   );

@@ -26,8 +26,10 @@ class WCard extends React.Component {
         <Card.Subtitle>{date} - {month} - {year}</Card.Subtitle>
         <Card.Img className = "image" src = {icon} alt = {text}></Card.Img>   
         <Card.Text>{text}</Card.Text>
-        <div className = "bubblebox">
+        <div className = "bubblerow1">
         <Bubble title = "Wind" value = {wind}/>
+        </div>
+        <div className = "bubblerow2">
         <Bubble title = "Min" value = {min}/>
         <Bubble title = "Max" value = {max}/>
         </div>
