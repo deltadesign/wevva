@@ -33,12 +33,13 @@ class App extends React.Component {
   }
 
   getweather () {
+    setTimeout (() => {
     this.ApiClient.getForecast().then((response) => {
       this.setState({
         loading: false,
         weather: response.data.daily
       })
-    })
+    })},2000)
   }
 
   componentDidMount(){

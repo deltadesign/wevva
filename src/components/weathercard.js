@@ -20,7 +20,7 @@ class WCard extends React.Component {
 
   return (
 
-    <Card style = {{width: '18rem'}} className = "mt-4" >
+    <Card className = "weathercard" >
       <Card.Header as="h4">{nameDay}</Card.Header>
       <Card.Body>
         <Card.Subtitle>{date} - {month} - {year}</Card.Subtitle>

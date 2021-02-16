@@ -1,11 +1,22 @@
 * {
-  text-align: center;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .app {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.weathercard {
+  min-width: 280px;
+  width: 17.5%;
+  margin: 0.6em 0;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .image {
@@ -13,12 +24,11 @@
   height: 130px;
 }
 
-
 .bubblebox {
   display: flex;
 } 
 
-.outerbubble {
+.bubble {
   display: flex;
   flex-direction: column;
   border-radius: 50%;
