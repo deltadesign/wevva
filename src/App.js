@@ -5,6 +5,8 @@ import Wcard from './components/weathercard';
 import { ApiClient } from './ApiClient';
 import { Random } from './components/randoload';
 import './App.css';
+import loading from './assets/loading.gif';
+
 
 // https://deltadesign.github.io/wevva/
 
@@ -53,7 +55,7 @@ class App extends React.Component {
         <Navbar.Brand>{this.state.loading ? this.Random.getRandomMessage() : "Wevva"}</Navbar.Brand>
       </Navbar>
     <div className = "app">
-      {this.weather()}
+      {this.state.loading ? <img src={loading} alt="a loading wheel"/> : this.weather()}
     </div>
     </>
   );
