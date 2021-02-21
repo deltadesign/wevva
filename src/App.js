@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   weather(){
-    return this.state.weather.slice(1,8).map((item, i)=> (  
+    return this.state.weather.slice(1,6).map((item, i)=> (  
       <Wcard key= {i}
         datestring ={item.dt}
         icon = {item.weather[0].icon}
